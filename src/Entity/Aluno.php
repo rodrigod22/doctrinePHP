@@ -33,8 +33,5 @@ class Aluno
     public function setNome($nome): self {
         $this->nome = $nome;
         return $this;
-    }
-
-
-    
+    }    
 }

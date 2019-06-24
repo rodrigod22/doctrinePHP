@@ -27,7 +27,7 @@ class EntityManagerFactory {
     'dbname' => 'doctrine',
     'user' => 'root',
     'password' => 'root',
-    'host' => 'localhost',
+    'host' => 'localhost:3308',
     'driver' => 'pdo_mysql',
     );
         return EntityManager::create($connection, $config);
